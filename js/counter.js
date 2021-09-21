@@ -64,6 +64,12 @@ var days = timeDiff ;
     }
 }
 
+// fechaHoy = new Date();
+// diaDeHoy = fechaHoy.getDate();
+// if( diaDeHoy == 19){
+// let firework =  document.getElementsByClassName('firework')[0];
+//    firework.id = 'board';
+// }
 
 window.onload = function() {
     setInterval(repite, 1000);
